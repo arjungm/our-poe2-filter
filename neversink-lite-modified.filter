@@ -12,16 +12,6 @@
 # TWITCH:  https://www.twitch.tv/neversink
 # PATREON: https://www.patreon.com/Neversink
 
-#
-#--------------------------
-# Monk Bases
-#
-Show
-BaseType "Assassin Garb" "Devout Garb" "Torment Jacket" "Expert Tribal Mask" "Expert Veiled Mask" "Expert Face Mask" "Expert Spiral Wraps" "Expert Linen Wraps" "Expert Gauze Wraps" "Expert Hunting Shoes" "Expert Threaded Shoes" "Expert Frayed Shoes" "Expert Serpentscale Coat" "Expert Studded Vest" "Expert Pathfinder Coat" "Expert Feathered Tiara" "Expert Chain Tiara" "Expert Wicker Tiara"
-SetBorderColor 0 200 200
-SetFontSize 40
-
-#
 #--------------------------
 # Advanced 2H Maces
 #
@@ -32,7 +22,6 @@ Show
 	SetFontSize 40
 	Continue
 
-#
 #--------------------------
 # Expert 2H Maces
 # 
@@ -43,7 +32,6 @@ Show
 	SetFontSize 40
 	Continue
 
-#
 #--------------------------
 # ARMOR CRAFTING BASES
 #
@@ -66,26 +54,6 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 0 255 255 100
 MinimapIcon 1 Yellow Cross
-
-#
-#----------------------------------
-# Quality for Salvage!
-#
-Show
-Class "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
-Quality > 0
-SetBackgroundColor 0 0 0 250
-SetTextColor 200 0 255
-SetBorderColor 200 0 255
-SetFontSize 35
-
-Show
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"
-Quality > 0
-SetBackgroundColor 0 0 0 250
-SetTextColor 0 100 200
-SetBorderColor 0 100 200
-SetFontSize 35
 
 #--------------------------
 # Overrides - Uniques, Valuables
